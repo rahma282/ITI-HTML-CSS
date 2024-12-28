@@ -1,0 +1,173 @@
+<!-- Q1:What is HTML? 
+    HTML -> stand for Hyber Text MarkUp language and it describes the structure of a web page
+--> 
+<!-- Q2: Making a basic HTML page: “Hello, world” with config -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--title: “Hello, world”,-->
+        <title>"Hello Cats Lovers!"</title>
+        <!--Icon: A favicon is a small image displayed next to the page title in the browser tab-->
+        <link rel="icon" href="cat.jpg" type="/images/favicon.ico" >
+        <!--Key words: “Hello, Cats Lovers ”-->
+        <meta name ="keywords" content="Hello, Cats, Lovers,Cute">
+        <!--Author : “your name”-->
+        <meta name ="--Author" content="Rahma Mostafa" >
+        <!--description: any text-->
+        <meta name ="describes" content="My first HTML lab in ITI">
+        <!--view port-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Add link for style sheet-->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!--Q3: Styling your text: using tags {bold , underline , delete text ,italic, mark}-->
+        <pre>
+        <h3 style="color: burlywood;"><b>Cute Cat..</b></h3>
+        
+        <i style="color: blueviolet;">this site about cute cats</i>
+        
+        <u style="color: brown;">Do you love cats?</u>
+
+        <del style="color: red;">hate</del>
+
+        <mark style="color:blue;">cats are very cute..</mark>
+        </pre>
+
+        <!--Q4: Making a paragraph with title “this is paragraph”-->
+        <!--Q5:Use break and line-->
+        <p style="color:purple;">
+            --this paragraph about cats--
+        <br style="color: aquamarine;">
+            Cats have very sweet features. 
+        <br>
+            It has two beautiful eyes, adorably tiny paws, sharp claws, and two perky ears which are very sensitive to sounds.
+            It has a tiny body covered with smooth fur and it has a furry tail as well. 
+            Cats have an adorable face with a tiny nose, a big mouth and a few whiskers under its nose
+            <hr>
+        </p>
+    <!--Q6:Give me the difference between {[b , strong], [i,em], [s,del], [u,ins]}
+        b -> bold for just styling "without marking it as important"
+        strong -> bold for the important text "strong importance"
+        
+        i -> itilic for just styling "element only when there is not a more appropriate semantic element"
+        em -> itilic "emphasized text"
+        
+        s->Mark up text that is no longer correct
+        del-> defines text that has been deleted from a document
+
+        u->represents some text that is unarticulated and styled differently from normal text
+        ins->defines a text that has been inserted into a document. Browsers will usually underline inserted text.
+    -->
+        <!--Q7:Making a list-->
+        <ol type="I" style="color:darkblue;">
+            <li>List Item 1</li>
+                <ol type="a" style="color:darkslateblue;">
+                    <li>Nested item 1.1</li>
+                    <li>Nested item 1.2</li>
+                </ol>
+            <li>List Item 2</li>
+            <ol type="1" style="color:navy;"">
+                <li>Nested item 2.1</li>
+                <li>Nested item 2.2</li>
+                <ul style="list-style-type:circle">
+                    <li>Nested item 2.2.1</li>
+                    <li>Nested item 2.2.2</li>
+                        <ul style="list-style-type:disc "">
+                            <li>Nested item 2.2.2.1</li>
+                            <li>Nested item 2.2.2.2</li>
+                        </ul>
+                    <li>Nested item 2.2.3</li>
+                </ul>
+                <li>Nested Item 2.3</li>
+            </ol>
+            <li>List Item 3</li>
+                <ul style="list-style-type:disc">
+                    <li>Nested item 3.1</li>
+                    <li>Nested item 3.1</li>
+                    <li>Nested item 3.1</li>
+                </ul>
+        </ol>
+        <hr>
+        <!--Q8:Making a table-->
+        <table border="1px">
+            <tr >
+                <th rowspan="3">Day</th>
+                <th colspan="3">Seminar</th>
+            </tr>
+            <tr>
+                <th colspan="2">Schedule</th>
+                <th rowspan = "2"colspan="2">Topic</th>
+            </tr>
+            <tr>
+                <th>Begin</th>
+                <th>End</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Monday</th>
+                
+                    <th rowspan="2">8:00 am</th>
+                    <th rowspan="2">5:00 am</th>
+                
+                <th colspan="2">Introduction to XML</th>
+            </tr>
+            <tr>
+                <th colspan="2">Validity:DTD and Relax NG</th>
+            </tr>
+            <tr>
+                <th rowspan="3">Tuesday</th>
+                <th>8:00 am</th>
+                <th>11:00 am</th>
+                <th colspan="2" rowspan="2">XPATH</th>
+            </tr>
+            <tr>
+                <th>11:00 am</th>
+                <th>2:00 am</th>
+            </tr>
+            <tr>
+                <th>2:00 am</th>
+                <th>5:00 am</th>
+                <th rowspan="1" colspan="2" >XSL Transformations</th>
+            </tr>
+            <tr>
+                <th rowspan="1">Wednesday</th>
+                <th>8:00 am</th>
+                <th>12:00 am</th>
+                <th rowspan="1" colspan="1">XML Formating Object</th>
+            </tr>
+        </table>
+        <hr>
+        <!--Q10:Adding an image using url and relative path-->
+        <br>
+        <img src="https://img.freepik.com/free-photo/view-beautiful-persian-domestic-cat_23-2151773826.jpg" alt="cute kitten" height="200" width="300">
+        <img src="kitten.jpg" alt="sleepy kitten" height="200" width="300">
+        <br>
+        <!--Q12:Embedding a YouTube video using iframe-->
+        <iframe width="420" height="315" 
+        src="https://www.youtube.com/embed/S2bTVTsJZ-I">
+        </iframe>
+        <br>
+        <!--Q13:Making the video and audio tags-->
+        <video width="420" height="315" autoplay muted controls>
+            <source src="cuteCat.mp4" type="video/mp4">
+        </video>
+        <br>
+        <audio autoplay loop controls>
+            <source src="kucing-724.mp3" type="audio/mpeg">
+        </audio>
+        <br>
+        <!--Q11:Making the image into a link-->
+        <a href="http://127.0.0.1:5500/Lab1.html" target="_blank">
+            <img src="caticon.jpg" alt="Clickable Image" height="50" width="50">
+        </a>
+        <br>
+        <!--Q9:Creating links target in same page and another page-->
+        <br>
+        <a href="https://cats.com/">Visit cats.com</a> <!--in same page-->
+        <!--in another page-->
+        <br>
+        <a href="https://cats.com/" target="_blank"> Visit cats.com </a>
+        
+        
+    </body>
+</html>
