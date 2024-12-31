@@ -1,0 +1,12 @@
+ul {
+    color: #2c3e50;
+    font-size: 1.2em;
+}
+
+ul ul {
+    color: #e74c3c;
+    font-size: 1em;
+}
+h1{
+   color: firebrick;
+}
