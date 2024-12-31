@@ -1,0 +1,24 @@
+.p {
+    font-family: "Tahoma", Verdana, sans-serif;
+    color: darkblue;
+    font-size: medium;
+    line-height: 1.8;
+    text-align: justify;
+  }
+  
+  .h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+    font: optional;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  .h2{
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: rgb(77, 0, 100);
+    font: optional;
+    letter-spacing: 3px;
+    text-align: left;
+  }
+  
+  
