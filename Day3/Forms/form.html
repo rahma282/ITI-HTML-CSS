@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <link rel="icon" href="form.png" type="image/jpeg">
+        <meta name="describes" content="Form HTML lab in ITI">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Registration Form</h1>
+        </header>
+        <div class="container">
+            <section class="form-section">
+                <form>
+                    <section>
+                        <fieldset>
+                            <legend style="color: rgb(128, 4, 52);">Personal Information</legend>
+
+                            <label for="fullname">Username:</label>
+                            <input type="text" id="fullname" name="fullname" placeholder="Enter your name" required>
+
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="name@example.com" required>
+                        </fieldset>
+                    </section>
+                        
+                    <section>
+                        <fieldset>
+                            <legend style="color: rgb(128, 4, 52);">Favorites</legend>
+                            <label for="Programming">Favorite Programming Language:</label>
+                            <select id="Programming" name="Programming">
+                                <option value="JAVA">Java</option>
+                                <option value="C++">C++</option>
+                                <option value="C">C</option>
+                                <option value="PYTHON">Python</option>
+                                <option value="RUBY">Ruby</option>
+                                <option value="PHP">PHP</option>
+                                <option value="JAVA SCRIPT">JavaScript</option>
+                            </select>
+                        </fieldset>
+                    </section>
+                    <br>
+                    <section>
+                        <fieldset>
+                            <legend style="color:rgb(128, 4, 52);">Level</legend>
+                            <label>What is your level?</label>
+                            <label for="Beginner">
+                                <input type="radio" id="Beginner" name="lab" value="Beginner" checked> Beginner
+                            </label>
+                            <label for="Intermediate">
+                                <input type="radio" id="Intermediate" name="lab" value="Intermediate"> Intermediate
+                            </label>
+                            <label for="Advanced">
+                                <input type="radio" id="Advanced" name="lab" value="Advanced"> Advanced
+                            </label>
+                        </fieldset>
+                    </section>
+                    <br>
+                    <section>
+                        <input type="submit" id="submit-btn" value="Submit">
+                    </section>
+                </form>
+            </section>
+        </div>
+    </body>
+</html>
