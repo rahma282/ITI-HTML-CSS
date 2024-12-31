@@ -1,0 +1,107 @@
+input {
+    width: 20%;
+    /*adds padding inside the input field*/
+    padding: 1em;
+    border: 1px solid #ccc;
+    /* rounds the corners*/
+    border-radius: 4px;
+    box-sizing: border-box;
+    /*add space above the input field*/
+    margin-top: 0.375rem;
+    /*add space under the input field*/
+    margin-bottom: 1rem;
+  }
+ 
+  #submit-btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 1em;
+  border-radius: 4px;
+  }
+
+  #message {
+    display: none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 2em;
+    margin-top: 1.25rem;
+  }
+  .container {
+    background-color: #f1f1f1;
+    padding: 2em;
+    width: 90%;
+    /*Centers the container horizontally within its parent element*/
+    margin: 0 auto;
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+  }
+
+  .error-message {
+    display: none;
+  }
+  input:invalid + .error-message {
+      display: block;
+      color: red;
+      font-size: 0.9em;
+  }
+
+  .form-section label {
+    /*Ensures the label is displayed as a block element, forcing it to occupy its own line.*/
+    display: block;
+    /*add a margin of 0.5rem above and below each label*/
+    margin: 0.5rem 0;
+  }
+  
+  input[type="file"] {
+    padding: 0.625em;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 0.625rem;
+    width: auto;
+    
+  }
+
+  input[type="radio"] {
+    margin-right: 0.5rem;
+    width: auto;
+    height: auto;
+  }
+
+  select {
+    width: 10%;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 0.375rem;
+    margin-bottom: 1rem;
+  }
+
+  header {
+    text-align: center;
+    margin: 0 auto;
+    background: linear-gradient(45deg, #0a2b38, #41e2da);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  body{
+    background-color:beige;
+  }
+.comment {
+  background-image: url('bk.png'); 
+  /* Ensures the image covers the entire section */
+  background-size: cover; 
+  /*center img*/
+  background-position: center; 
+  /* Add padding inside each comment. */
+  padding: 2em; 
+  /* Use a border to separate the comment section from the rest of the page*/
+  border: 2px solid #ccc; 
+  border-radius: 10px;
+  /* Apply a margin between individual comments*/
+  margin-top: 2em;
+  margin-bottom: 2em; 
+}

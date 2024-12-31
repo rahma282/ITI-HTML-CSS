@@ -1,0 +1,54 @@
+.container {
+    /*This creates a flex container, ensuring the boxes are aligned next to each other*/
+    display:flex; 
+    gap: 10px; 
+}
+.box1 {
+    width: 150px;
+    height: 150px;
+    background-color: #7fdb34;
+    padding: 15px;
+    margin: 10px;
+    border: 5px solid #236826;
+    box-sizing: content-box; 
+}
+
+.box2 {
+    width: 200px;
+    height: 150px;
+    background-color: #e74c3c;
+    padding: 25px;
+    margin: 15px;
+    border: 3px solid #c0392b;
+    box-sizing: border-box; 
+}
+
+.box3 {
+    width: 150px;
+    height: 200px;
+    background-color: #cc2eb7;
+    padding: 12px;
+    margin: 20px;
+    border: 2px solid #461043;
+    box-sizing: padding-box; 
+}
+.box4 {
+    width: 500px;
+    height: 200px;
+    background-color: #6634db;
+    padding: 7px;
+    margin: 10px;
+    border: 8px solid #05071d;
+    box-sizing: content-box; 
+}
+.box5 {
+    width: 70px;
+    height: 70px;
+    background-color: #e60d31;
+    padding: 7px;
+    margin: 10px;
+    border: 6px solid #470413;
+    box-sizing: content-box; 
+}
+
+
