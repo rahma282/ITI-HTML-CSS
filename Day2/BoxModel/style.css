@@ -1,8 +1,3 @@
-.container {
-    /*This creates a flex container, ensuring the boxes are aligned next to each other*/
-    display:flex; 
-    gap: 10px; 
-}
 .box1 {
     width: 150px;
     height: 150px;
